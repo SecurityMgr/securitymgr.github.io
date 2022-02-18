@@ -22,9 +22,9 @@ category: SecurityNews
 #Azure, #Threat Hunting, #Playbook, #PowerShell
 > - 개요 : PowerShell로 구동되는 Cloud Forensics용으로 Azure 및 Office365의 데이터에 대한 플레이북
 - 구동매커니즘
-![이미지] () 
+![이미지] (https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220217_1.png) 
 - 구동결과
-![이미지] () 
+![이미지] (https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220217_2.png) 
 - 구동방법
 1. 올바른 O365의 권한보유여부 확인
 - UnifiedAuditLog의 읽기전용(read only) 액세스 권한을 가지려면 Exchange Online에서 ‘View-Only Audit Logs’과 ‘Audit Logs’ 역할(Role)이 필요
@@ -32,11 +32,10 @@ category: SecurityNews
 - PowerShell Command : Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
 + UnifiedAuditLogIngestionEnabled True속성값은 감사로그검색이 켜져있는 것을 의미
 + UnifiedAuditLog : ExchangeItems, SharePoint, Azure AD, OneDrive, 데이터 거버넌스, 데이터 손실 방지, Windows Defender 경고 및 격리 이벤트, 위협 인텔리전스 이벤트와 같은 여러 유형의 클라우드 작업에 대한 로그정보를 제공
- 
+![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220217_3.png) 
 - 감사기록이 켜져 있는 경우 : CmdletParameters에서 Confirm이 존재하면 True 상태(없는경우 False상태) ]
-
- 
-Microsoft 365 services that support auditing
+![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220217_4.jpg) 
+ Microsoft 365 services that support auditing
 
 2. ExchangeOnlineManagement v2 PowerShell 모듈 설치여부 확인
 3. Repo에서 복제하거나 PSGallery에서 AzureHunter를 설치
@@ -89,7 +88,7 @@ Microsoft 365 services that support auditing
 #AWS_Cognito, #Misconfiguration
 - Flickr Account Takeover using AWS Cognito API(https://hackerone.com/reports/1342088)을 토대로 작성된 블로깅
 Flickr Access Takeover Attack Flow
-![이미지]()
+![이미지](![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220217_5.png) )
  
 
 1. 개요
