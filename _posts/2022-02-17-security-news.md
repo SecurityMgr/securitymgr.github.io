@@ -22,9 +22,9 @@ category: SecurityNews
 #Azure, #Threat Hunting, #Playbook, #PowerShell
 > - 개요 : PowerShell로 구동되는 Cloud Forensics용으로 Azure 및 Office365의 데이터에 대한 플레이북
 - 구동매커니즘
-![이미지] (https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220217_1.png?raw=true) 
+![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220217_1.png?raw=true) 
 - 구동결과
-![이미지] (https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220217_2.png?raw=true) 
+![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220217_2.png?raw=true) 
 - 구동방법
 1. 올바른 O365의 권한보유여부 확인
 - UnifiedAuditLog의 읽기전용(read only) 액세스 권한을 가지려면 Exchange Online에서 ‘View-Only Audit Logs’과 ‘Audit Logs’ 역할(Role)이 필요
@@ -111,7 +111,9 @@ Date: Thu, 32 Abc 2040 25:51:36 GMT
 }```
 
 - 그 이후 앱에서 AWS Cognito에 요청을 보내 사용자 세부정보를 가져오는 과정을 거치는데 ‘X-Amz-Target: AWSCognitoIdentityProviderService.GetUser’헤더의 AccessToken과 함꼐 게시 요청으로 전송
-```POST / HTTP/1.1
+<pre>
+<code>
+POST / HTTP/1.1
 Host: cognito-idp.eu-west-1.amazonaws.com
 Referer: https://target
 Content-Type: application/x-amz-json-1.1
@@ -119,9 +121,11 @@ X-Amz-Target: AWSCognitoIdentityProviderService.GetUser
 X-Amz-User-Agent: aws-amplify/0.1.x js
 Origin: https://target
 Content-Length: 1021
-Connection: close{"AccessToken":"<AccessToken>"}```
+Connection: close{"AccessToken":"<AccessToken>"}
+</code>
+</pre>
 - 사용자 속성은 응답값을 통해서 확인 가능
-```{
+``` {
 "UserAttributes": [
 {
 "Name": "sub",
@@ -145,7 +149,7 @@ Connection: close{"AccessToken":"<AccessToken>"}```
 }
 ],
 "Username": "sdfdsfdff8b142bb58"
-}```
+} ```
 - 공격절차
 - 로그인 후 획득한 AccessToken은 AWS-CLI에서 바로 사용이 가능하며 Flickr Account Takeover(https://security.lauritz-holtmann.de/advisories/flickr-account-takeover/#amazon-cognito)블로깅 내용에 따라 아래 명령어를 사용해 사용자 속성 확인이 가능
 aws --no-verify-ssl cognito-idp get-user --region eu-west-1 --access-token <Insert Token Here>
