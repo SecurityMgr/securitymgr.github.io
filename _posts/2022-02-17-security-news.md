@@ -116,6 +116,7 @@ Date: Thu, 32 Abc 2040 25:51:36 GMT
 </pre>
 
 - 그 이후 앱에서 AWS Cognito에 요청을 보내 사용자 세부정보를 가져오는 과정을 거치는데 ‘X-Amz-Target: AWSCognitoIdentityProviderService.GetUser’헤더의 AccessToken과 함꼐 게시 요청으로 전송
+
 <pre>
 <code>
 POST / HTTP/1.1
@@ -127,6 +128,7 @@ X-Amz-User-Agent: aws-amplify/0.1.x js
 Origin: https://target
 Content-Length: 1021
 Connection: close{"AccessToken":"<AccessToken>"}
+
 </code>
 </pre>
 
