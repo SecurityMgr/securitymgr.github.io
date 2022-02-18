@@ -97,7 +97,7 @@ Flickr Access Takeover Attack Flow
 
 <pre>
 <code>
-```HTTP/2 200 OK
+HTTP/2 200 OK
 Date: Thu, 32 Abc 2040 25:51:36 GMT
 [...]{
     "AuthenticationResult":    
@@ -111,7 +111,7 @@ Date: Thu, 32 Abc 2040 25:51:36 GMT
         "ChallengeParameters":
         {            
         }
-}```
+}
 </code>
 </pre>
 
@@ -133,7 +133,7 @@ Connection: close{"AccessToken":"<AccessToken>"}
 - 사용자 속성은 응답값을 통해서 확인 가능
 <pre>
 <code>
-``` {
+{
 "UserAttributes": [
 {
 "Name": "sub",
@@ -157,7 +157,7 @@ Connection: close{"AccessToken":"<AccessToken>"}
 }
 ],
 "Username": "sdfdsfdff8b142bb58"
-} ```
+}
 </code>
 </pre>
 
