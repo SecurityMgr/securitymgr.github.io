@@ -104,7 +104,7 @@ category: SecurityNews
 
 #### jadx - Dex to Java decompiler [[link]](https://github.com/skylot/jadx)
 - Android Dex 및 Apk 파일에서 Java 소스 코드를 생성하기 위한 명령줄 및 GUI 도구
-![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220221_4.png?raw=true)
+![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220221_4.jpg?raw=true)
 
 #### GitHub code scanning now finds more security vulnerabilities [[link]](https://www.bleepingcomputer.com/news/security/github-code-scanning-now-finds-more-security-vulnerabilities/?fbclid=IwAR2jq9X7-Tsx2aqfO9uC7oJql0hXHUOuHXBPfY_cyfX3QupEIWPCGkxMUbk)
 GitHub에 머신러닝 기술을 기반으로 코드 취약점을 스캔할 수 있는 기능이 추가되었습니다.
@@ -112,7 +112,7 @@ GitHub에 머신러닝 기술을 기반으로 코드 취약점을 스캔할 수 
 repository 별 이용 정책은 다음과 같습니다.
 - Public repository : 무료
 - Private repository : 엔터프라이즈만 사용 가능
-![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220221_5.png?raw=true)
+![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220221_5.jpg?raw=true)
  
 
 # [ ETC ]
@@ -126,4 +126,4 @@ repository 별 이용 정책은 다음과 같습니다.
 	4. 시장 니즈를 반영한 플랫폼 운영 등을 중점 추진할 예정입니다.
 
 금융권에서 생존과 미래 경쟁력 확보를 위한 양질의 데이터 확보가 더욱 중요해지고 있는만큼 앞으로도 금융보안원은 금융산업과 시장의 니즈와, 금융당국의 정책 방향에 맞춰 금융데이터거래소(FinDX)를 지속 운영해 나가겠습니다.
-![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220221_6.png?raw=true)
+![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220221_6.jpg?raw=true)
