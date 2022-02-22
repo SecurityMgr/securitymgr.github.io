@@ -55,7 +55,7 @@ category: SecurityNews
 	4. Zabbix Web Frontend : Zabbix서버에 대한 인터페이스, TCP 및 공유 데이터베이스와 통신
 	대시보드를 통해 시스템 관리자가 수집된 데이터의 모니터링 및 Zabbix서버 구성에 사용(예: 호스트 나열, Zabbix Agent에서 스크립트 실행)
 + 동작구성도
-![이미지](링크1)
+![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220221_1.png?raw=true)
 
 #### CVE-2022-23131 - SAML SSO 인증 우회
 - SAML(Security Assertion Markup Language)은 가장 일반적인 SSO(Single-Sign-On) 표준 중 하나로 XML을 중심으로 구현되어 ID 제공자(IdP, 사용자를 인증할 수 있는 엔티티)가 서비스 제공자(SP, 여기서는 Zabbix)에게 사용자를 제공
@@ -96,15 +96,15 @@ category: SecurityNews
 
 #### Voltron - A Hacky Debugger UI For Hackers [[link]](https://www.kitploit.com/2022/02/voltron-hacky-debugger-ui-for-hackers.html?fbclid=IwAR3s5yHBO3TOmDgX0BLsyKYgCHh6VbPLCbe8hJ72c5ZNnb5p74CZP7e9MI8)
 - 다양한 디버거(LLDB, GDB, VDB 및 WinDbg)들의 Python으로 확장 가능한 디버깅 UI툴킷
-![이미지](링크2)
+![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220221_2.png?raw=true)
 
 #### HybridTestFramework - End To End Testing Of Web, API And Security [[link]](https://www.kitploit.com/2022/02/hybridtestframework-end-to-end-testing.html?fbclid=IwAR10GJLfC7U0zSr1lPjHiIGpVKZSx4IQn49oL9t8s7MgBi1H0voHM5cpalU)
 - 소프트웨어 테스팅 지원 플랫폼(CI/CD구현을 위해서는 이런 플랫폼이 중요)
-![이미지](링크3)
+![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220221_3.png?raw=true)
 
 #### jadx - Dex to Java decompiler [[link]](https://github.com/skylot/jadx)
 - Android Dex 및 Apk 파일에서 Java 소스 코드를 생성하기 위한 명령줄 및 GUI 도구
-![이미지](링크4)
+![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220221_4.jpg?raw=true)
 
 #### GitHub code scanning now finds more security vulnerabilities [[link]](https://www.bleepingcomputer.com/news/security/github-code-scanning-now-finds-more-security-vulnerabilities/?fbclid=IwAR2jq9X7-Tsx2aqfO9uC7oJql0hXHUOuHXBPfY_cyfX3QupEIWPCGkxMUbk)
 GitHub에 머신러닝 기술을 기반으로 코드 취약점을 스캔할 수 있는 기능이 추가되었습니다.
@@ -112,7 +112,7 @@ GitHub에 머신러닝 기술을 기반으로 코드 취약점을 스캔할 수 
 repository 별 이용 정책은 다음과 같습니다.
 - Public repository : 무료
 - Private repository : 엔터프라이즈만 사용 가능
-![이미지](링크5)
+![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220221_5.jpg?raw=true)
  
 
 # [ ETC ]
@@ -126,4 +126,4 @@ repository 별 이용 정책은 다음과 같습니다.
 	4. 시장 니즈를 반영한 플랫폼 운영 등을 중점 추진할 예정입니다.
 
 금융권에서 생존과 미래 경쟁력 확보를 위한 양질의 데이터 확보가 더욱 중요해지고 있는만큼 앞으로도 금융보안원은 금융산업과 시장의 니즈와, 금융당국의 정책 방향에 맞춰 금융데이터거래소(FinDX)를 지속 운영해 나가겠습니다.
- 
+![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220221_6.jpg?raw=true)
