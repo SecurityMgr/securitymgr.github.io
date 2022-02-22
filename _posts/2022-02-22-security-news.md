@@ -24,7 +24,7 @@ category: SecurityNews
 - SMS PVA(전화 인증 계정) 서비스를 분석한 결과 수천 대의 감염된 Android 전화가 포함된 봇넷 위에 구축된 악성 플랫폼이 발견
 * SMS PVA서비스 : 다른 온라인 서비스 및 플랫폼에 등록하는데 사용할 수 있는 대체 휴대폰 번호를 사용자에게 제공하고 SMS기반 인증 및 확인을 위해 배치된 SSO 매커니즘
 - smspva[.]net이라는 특정 서비스는 SMS 가로채기 맬웨어에 감염된 Android 기기로 구성
-![이미지](1)
+![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220222_1.jpg?raw=true)
  
 
 #### Qbot and Zerologon Lead To Full Domain Compromise [[link]](https://thedfirreport.com/2022/02/21/qbot-and-zerologon-lead-to-full-domain-compromise/?fbclid=IwAR1S6stFBqjcM2bgfmN5O76wYkBZiGvxMeUQrm7xi19hGpKm19NzLOHm7hI)
@@ -32,24 +32,24 @@ MITRE기반으로 Qbot (a.k.a. Quakbot/Qakbot)과 Zerologon 취약점(CVE-2020-1
 - 개요
 	+ Qbot (a.k.a. Quakbot/Qakbot)과 Zerologon 취약점(CVE-2020-1472)로 도메인 관리자 권한 획득
 - Timeline
-![이미지](2) 
+![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220222_2.png?raw=true) 
 
 
 - 공격 상세분석
 	>1. Initial Access
 		+ Qbot은 악성DLL을 다운로드 하는 악성문서를 통해 이메일로 전달
 		+ Reference : [[link]](https://tria.ge/211115-r554waafe6)
-		![이미지](3)
+		![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220222_3.jpg?raw=true)
 		
 	2. Execution
 		+ QBot PowerShell을 통해 아래 이벤트들이 시작
 		+ 예약된 작업에서 HKCU:\SOFTWARE\Pvoeooxfbase64로 인코딩된 값을 포함하는 3개의 키값이 생성된 것을 확인
-		![이미지](4)
+		![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220222_4.jpg?raw=true)
 	3. Persistence
 		+ Scheduled Task/Job – Scheduled Task On Beachhead
 	4. Privilege Escalation
 		+ Zerologon(CVE-2020-1472)를 이용해 도메인 권한 탈취
-		![이미지](5)
+		![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220222_5.png?raw=true)
 	5. Defense Evasion
 		+ 초기에 dll을 실행하면 QBot은 Process hollowing로 explorer.exe(32bit) 인스턴스를 시작한 다음 프로세스가 악성dll을 Injection
 		<pre>
@@ -69,13 +69,13 @@ MITRE기반으로 Qbot (a.k.a. Quakbot/Qakbot)과 Zerologon 취약점(CVE-2020-1
 	9. Exfiltration
 
 - MITRE MAP
-![이미지](6)
+![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220222_6.png?raw=true)
 
 # [ Tools ]
 ---
 #### MISP/misp-wireshark [[link]](https://github.com/MISP/misp-wireshark?fbclid=IwAR30dMKnGFyCB_up7Pb-bzfRh8ICOMVHaA2m1bzk3se2s-ztFhsGmjgC4Tc)
 - 위협인텔리전스 분석플랫폼 MISP에 wireshark플러그인 릴리즈
-![이미지](7)
+![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220222_7.png?raw=true)
 
 # [ ETC ]
 ---
@@ -94,5 +94,5 @@ MITRE기반으로 Qbot (a.k.a. Quakbot/Qakbot)과 Zerologon 취약점(CVE-2020-1
 	1. 오픈소스 기반 툴들을 해킹 활동에 응용한 해킹 그룹들-NSHC 장영준 수석-
 	1. 취약점에 대한 접근 방식의 변화 및 인텔리전스 서비스 발전 방향-스틸리언 신동휘 부사장-
 	1. OSINT를 활용한 Attack Surface 위협 모니터링-익스웨어랩스 윤영 대표-
-![이미지](8)
+![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220222_8.jpg?raw=true)
  
