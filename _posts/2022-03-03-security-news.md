@@ -30,7 +30,7 @@ category: SecurityNews
 # [ Reports ]
 ---
 #### 2021년 하반기 악성코드 은닉사이트 탐지 동향 보고서 [[link]](https://www.boho.or.kr/data/reportView.do?bulletin_writing_sequence=36472&fbclid=IwAR0gnVUVOT_mcQXg-D2Hre0qcpnaOFGRS-ClS_JerXxHwgxycAtYoiXs3rM)
-![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220303_2.png?raw=true) 
+![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220303_2.png?raw=true)
 
 # [ Tools ]
 ---
@@ -52,7 +52,7 @@ category: SecurityNews
 
 #### CVE-2022-24086 Magento RCE [[link]](https://reconshell.com/cve-2022-24086-magento-rce/)
 + 영향받는 버전 : Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier)
-![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220303_4.png?raw=true) 
+![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220303_4.png?raw=true)
 
  
 
@@ -68,7 +68,7 @@ category: SecurityNews
 	- 감염된 시스템의 기본 프로파일링 정보를 수집하여 C2에 업로그
 		ㄴ 수집정보 : 화면캡처, 사용자이름, OS이름, OS언어, 시간대, 윈도우 UUID, 키보드 언어, 설치된 사용자, 설치된 소프트웨어, 드라이브
 	- 일부 코드에서 LockBit 런처와 유사성이 발견
-![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220303_5.jpg?raw=true)  
+![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220303_5.jpg?raw=true)
 
 
 # [ ETC ]
