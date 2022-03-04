@@ -93,8 +93,8 @@ https://t.me/s/GhostSecc
 ![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220228_10.jpg?raw=true)
  
 + 암호화 과정
-![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220228_11.jpg?raw=true) 
-![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220228_12.jpg?raw=true) 
+![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220228_11.jpg?raw=true)
+![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220228_12.jpg?raw=true)
 
 #### CONTI by Malware bazaar [[link]](https://bazaar.abuse.ch/browse/tag/conti/)
 - 최근들어 conti 랜섬웨어가 다시 급증
