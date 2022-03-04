@@ -35,8 +35,11 @@ category: SecurityNews
 
 >3) SNS내용
 	Russia Hacked Military mil[.]ru private data leaked?
+	
 	![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220228_1.jpg?raw=true)
+	
 	![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220228_2.jpg?raw=true)
+	
 	![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220228_3.jpg?raw=true)
 
 https://t.me/s/GhostSecc
@@ -48,6 +51,7 @@ https://t.me/s/GhostSecc
 - 현재 어나니머스에서 러시아 방송국을 해킹해서 우크라이나에서 발생하는 사건에 대해서 공유중
 [[link]](https://twitter.com/youranontv/status/1497678663046905863?s=21&fbclid=IwAR2zbx6SmdbxHNov-R7kmOGPnKkE0U0BmxFil5EPC-5lI5TL_WKNRkc46Jg)
 [[link]](https://twitter.com/youranoncentral/status/1497560276635324417?s=21&fbclid=IwAR2eH-051LNmMhOCJvL4NItZE3QH8xkX3WvHr0GMAb98MC4QpkIEz8akEpE)
+
 	![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220228_5.jpg?raw=true)
 
 #### New data-wiping malware used in destructive attacks on Ukraine [[link]](https://www.bleepingcomputer.com/news/security/new-data-wiping-malware-used-in-destructive-attacks-on-ukraine/?fbclid=IwAR2Nkq6saTvN1mnHbnfV3t8sePV7lv-NfjoU0JRk1Aj-CGEdGTF4OUNHtlE)
@@ -65,6 +69,7 @@ https://t.me/s/GhostSecc
 |Vulnerabilities Discussed|CVE-2021-40539, CVE-2021-44077, CVE-2021-28799|
 |Operating System Affected|Windows|
 |Related|Unit 42 Topics, TiltedTemple, APT, backdoors|
+
 ![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220228_6.png?raw=true)
 
 
@@ -72,6 +77,7 @@ https://t.me/s/GhostSecc
 # [ Tools ]
 ---
 #### DRAKVUF Sandbox - Automated Hypervisor-Level Malware Analysis System [[link]](https://www.kitploit.com/2022/02/drakvuf-sandbox-automated-hypervisor.html?fbclid=IwAR2Rd_iDSAUfp0GrJvwKsAMR5wF4gGQ0IgHbrvGSxuVVQTX6a6k-pPUB4Oc)
+
 ![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220228_7.jpg?raw=true)
 
 
@@ -82,7 +88,9 @@ https://t.me/s/GhostSecc
 - WordPress core, themes, plugins
 - Programming language libraries
 - Network devices
+
 ![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220228_8.png?raw=true)
+
 ![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220228_9.png?raw=true)
 
 
@@ -91,15 +99,20 @@ https://t.me/s/GhostSecc
 ---
 #### DoppelPaymer 랜섬웨어 암호기능 분석 보고서, KISA [[link]](https://seed.kisa.or.kr/kisa/Board/126/detailView.do?fbclid=IwAR1R-_NZZ493p84s7K59VwrnXzY64xZCFRg_Bt8GamC9EL9BluZ8ZJYYQt0)
 + 실행과정
+
 ![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220228_10.jpg?raw=true)
 
 + 암호화 과정
+
 ![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220228_11.jpg?raw=true)
+
 ![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220228_12.jpg?raw=true)
 
 #### CONTI by Malware bazaar [[link]](https://bazaar.abuse.ch/browse/tag/conti/)
 - 최근들어 conti 랜섬웨어가 다시 급증
+- 
 ![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220228_13.jpg?raw=true)
 
 PowerShell Cheat Sheet
+
 ![이미지](https://github.com/SecurityMgr/securitymgr.github.io/blob/main/_img/2022/220228_14.jpg?raw=true)
